@@ -26,13 +26,7 @@ public class QuestSystem : ModuleRules
 		PrivateDependencyModuleNames.AddRange(new string[] { });
 
 		PublicIncludePaths.AddRange(new string[] {
-			"QuestSystem",
-			"QuestSystem/Variant_Strategy",
-			"QuestSystem/Variant_Strategy/UI",
-			"QuestSystem/Variant_TwinStick",
-			"QuestSystem/Variant_TwinStick/AI",
-			"QuestSystem/Variant_TwinStick/Gameplay",
-			"QuestSystem/Variant_TwinStick/UI"
+			"QuestSystem"
 		});
 
 		// Uncomment if you are using Slate UI
